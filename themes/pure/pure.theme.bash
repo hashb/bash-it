@@ -29,7 +29,7 @@ scm_prompt() {
 pure_prompt() {
     ps_host="${bold_blue}\h${normal}";
     ps_user="${green}\u${normal}";
-    ps_user_mark="${green}\n$ ${normal}";
+    ps_user_mark="${green}\nλ ${normal}";
     ps_root="${red}\u${red}";
     ps_root_mark="${red}\n# ${normal}"
     ps_path="${yellow}\w${normal}";
